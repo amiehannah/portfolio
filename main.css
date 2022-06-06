@@ -266,57 +266,6 @@ h2 {
   padding: 1em;
 }
 
-.content-skills {
-  display: flex;
-  flex-flow: row wrap;
-  margin: auto;
-  gap: 1em;
-  flex-direction: column;
-  align-content: center;
-  padding-bottom: 20vh;
-}
-@media screen and (min-width: 610px) {
-  .content-skills {
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-}
-@media screen and (min-width: 769px) {
-  .content-skills {
-    flex-direction: row;
-    width: auto;
-  }
-}
-.content-skills__number {
-  font-size: 2.25rem;
-  font-weight: 400;
-  font-style: normal;
-  color: #191919;
-  text-align: left;
-}
-.content-skills__header {
-  font-family: "Source Serif Pro", serif;
-  font-size: 2.25rem;
-  font-weight: 400;
-  font-style: italic;
-}
-.content-skills__description {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.85rem;
-  line-height: 1.75;
-}
-.content-skills__list {
-  list-style-type: none;
-  background-color: #f5f5f5;
-  text-align: center;
-  list-style-type: none;
-  margin-right: 10px;
-  padding: 7px 15px;
-  margin-top: 10px;
-  width: 100%;
-}
-
 .content-projects {
   display: flex;
   flex-wrap: wrap;

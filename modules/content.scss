@@ -1,7 +1,3 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the content of the site/application.
-// -----------------------------------------------------------------------------
-
 // MAIN CONTAINER STYLING
 .main-content {
   width: 100%;
@@ -29,7 +25,6 @@
   }
 
   &__h1 {
-    //transform: rotate(-90deg);
     color: $color-black;
     font-family: $font-script;
     font-weight: 400;
@@ -93,7 +88,6 @@
 }
 
 // STYLING FOR TITLES
-
 h2 {
   font-family: "Source Serif Pro", serif;
   font-size: 4rem;
@@ -112,7 +106,6 @@ h2 {
 }
 
 // BACKGROUND LOGO - Fade
-
 .logo-bkgrnd-fade {
   height: 924px;
   position: absolute;
@@ -133,61 +126,6 @@ h2 {
   width: 275px; //275
   background-color: $color-green;
   padding: 1em;
-}
-
-.content-skills {
-  display: flex;
-  flex-flow: row wrap;
-  //@at-root: 75%;
-  margin: auto;
-  gap: 1em;
-  flex-direction: column;
-  align-content: center;
-  padding-bottom: 20vh;
-
-  @media screen and (min-width: 610px) {
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-
-  @media screen and (min-width: 769px) {
-    flex-direction: row;
-    width: auto;
-  }
-
-  &__number {
-    font-size: $font-size-header;
-    font-weight: 400;
-    font-style: normal;
-    color: $color-black;
-    text-align: left;
-  }
-
-  &__header {
-    font-family: $font-script;
-    font-size: $font-size-header;
-    font-weight: 400;
-    font-style: italic;
-  }
-
-  &__description {
-    font-family: $font-body;
-    font-size: $font-size-regular;
-    line-height: 1.75;
-  }
-
-  &__list {
-    list-style-type: none;
-    background-color: $color-white;
-    // display: inline-block;
-    text-align: center;
-    list-style-type: none;
-    margin-right: 10px;
-    padding: 7px 15px;
-    margin-top: 10px;
-    width: 100%;
-  }
 }
 
 
@@ -212,7 +150,6 @@ h2 {
   }
 
   &__figure {
-    // background-color: $color-green;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -253,7 +190,6 @@ h2 {
 
   &__overlay:hover {
     background: rgba(255, 255, 255, 0.75);
-    // background-color: $color-green-mid;
     color: $color-black;
   }
 
@@ -278,7 +214,6 @@ h2 {
     padding-bottom: 60px;
     padding-top: 10px;
     z-index: 15;
-    // display: flex; //might need to remove this?
 
     @media screen and (min-width: 576px) {
       font-size: $font-size-regular * 1.1;
@@ -306,7 +241,6 @@ h2 {
     font-style: italic;
     z-index: 15;
     font-weight: bold;
-    // padding-bottom: 0.5em;
 
     @media screen and (min-width: 576px) {
       font-size: 20px;
@@ -337,9 +271,7 @@ h2 {
     text-decoration: none;
     font-size: 0.8rem;
     text-transform: uppercase;
-    //
     display: inline-block;
-    // flex-wrap: wrap;
     text-align: center;
     list-style-type: none;
     margin-right: 10px;
@@ -355,7 +287,6 @@ h2 {
     padding: 5px 15px;
     margin-top: 8px;
     border: 3px solid $color-green-mid;
-    // background-color: $color-green-mid;
     text-decoration: none;
     text-transform: uppercase;
     font-size: $font-size-regular; //* 1.25;
@@ -384,10 +315,6 @@ h2 {
     @media screen and (min-width: 576px) {
       font-size: 22px;
     }
-    // @media screen and (min-width: 768px) {
-    //   padding-bottom: 0.25em;
-    //   font-size: 24px;
-    // }
   }
 }
 
