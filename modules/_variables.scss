@@ -1,0 +1,49 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/*font-regular*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
+
+/*font-script*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Source+Serif+Pro:ital,wght@0,200;1,200&display=swap");
+
+/// Regular font family
+$font-body: "Montserrat", sans-serif;
+
+/// Regular font size 12.8px
+$font-size-regular: 0.85rem;
+
+/// Script font family
+$font-script: "Source Serif Pro", serif;
+
+/// Header font size 36px
+$font-size-header: 2.25rem;
+
+/// Title font size 144px
+$font-size-title: 5rem;
+
+/// Colour - white
+$color-white: #f5f5f5;
+
+/// Colour - black
+$color-black: #191919;
+
+/// Colour - linear gradient
+$color-gradient: linear-gradient(90deg, #415e6c 1.65%, #87b0b9 100%);
+
+/// Colour - green transparent
+$color-green: rgba(135, 176, 185, 0.1);
+
+/// Colour - green transparent
+$color-green-mid: rgba(135, 176, 185, 0.5);
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+// a:hover {
+//   opacity: 0.25;
+//   transition: 0.2s ease-in;
+// }
