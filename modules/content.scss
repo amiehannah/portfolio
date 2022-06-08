@@ -209,16 +209,16 @@ h2 {
     padding-bottom: 60px;
     z-index: 15;
     width: 100%; //TESTING
-    padding-top: 10px;
+    // padding-top: 10px;
 
     @media screen and (min-width: 576px) {
       font-size: $font-size-regular * 1.1;
-      padding-top: 20px;
+      // padding-top: 20px;
     }
 
     @media screen and (min-width: 768px) {
-      padding-bottom: 0px;
-      padding-top: 30px;
+      // padding-bottom: 25px;
+      // padding-top: 30px;
       font-size: $font-size-regular * 1.15;
     }
 
@@ -355,7 +355,7 @@ h2 {
 
   @media screen and (min-width: 769px) {
     // flex: 1 1 65%;
-    flex: 0 1 60%;
+    flex: 0 1 57%;
   }
 }
 
@@ -365,7 +365,7 @@ h2 {
 
   @media screen and (min-width: 769px) {
     // flex: 1 1 65%;
-    flex: 0 1 60%;
+    flex: 0 1 57%;
   }
 }
 
@@ -393,7 +393,7 @@ h2 {
 
   @media screen and (min-width: 769px) {
     // flex: 1 1 65%;
-    flex: 0 1 60%;
+    flex: 0 1 57%;
   }
 }
 
@@ -403,7 +403,7 @@ h2 {
 
   @media screen and (min-width: 769px) {
     // flex: 1 1 65%;
-    flex: 0 1 60%;
+    flex: 0 1 57%; //60%
   }
 }
 
