@@ -28,6 +28,6 @@ Created by [Amie Edwards](mailto:amie.edwards17@gmail.com)
 
 <br/>
 <div align="right">
-    <b><a href="#js-calculator"> ^ back to top</a></b>
+    <b><a href="#portfolio"> ^ back to top</a></b>
 </div>
 <br/>
