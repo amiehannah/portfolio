@@ -15,6 +15,13 @@ html {
 
 body {
   overflow-x: hidden !important;
-  // overflow: hidden;
+
+  @media screen and (min-width: 576px) {
+    overflow-x: hidden !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    overflow-x: hidden !important;
+  }
 }
 
