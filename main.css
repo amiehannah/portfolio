@@ -32,6 +32,11 @@ body {
     overflow-x: hidden !important;
   }
 }
+@media screen and (min-width: 888px) {
+  body {
+    overflow-x: hidden !important;
+  }
+}
 
 .section-wrapper-header {
   width: 100%;
@@ -87,12 +92,12 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
 @media screen and (min-width: 768px) {
   nav a {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -129,12 +134,12 @@ nav a:hover {
 }
 @media screen and (min-width: 450px) {
   .hero__hero-header {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 768px) {
   .hero__hero-header {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 .hero__icon {
@@ -215,7 +220,7 @@ nav a:hover {
 }
 @media screen and (min-width: 768px) {
   .intro__img {
-    width: 22vh;
+    width: 180px;
   }
 }
 .intro__line {
@@ -268,46 +273,46 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  margin: auto;
-  gap: 2em 1em;
+  margin: 0 auto;
+  gap: 1.5em 0.5em;
   z-index: 15;
   padding-bottom: 10vh;
 }
 @media screen and (min-width: 768px) {
   .content-projects {
-    width: 80%;
-    gap: 4em 1em;
+    width: 75%;
+    gap: 3em 0.5em;
   }
 }
 @media screen and (min-width: 992px) {
   .content-projects {
-    gap: 8em 1em;
-    width: 85%;
+    gap: 5em 1em;
+    width: 75%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .content-projects {
+    max-width: 70%;
   }
 }
 .content-projects__figure {
-  height: 30vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 15;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 @media screen and (min-width: 576px) {
   .content-projects__figure {
-    height: 35vh;
-  }
-}
-@media screen and (min-width: 768px) {
-  .content-projects__figure {
-    height: 40vh;
+    height: 350px;
   }
 }
 @media screen and (min-width: 992px) {
   .content-projects__figure {
-    height: 55vh;
+    max-width: 500px;
   }
 }
 .content-projects__overlay {
@@ -349,18 +354,20 @@ h2 {
   font-weight: 400;
   font-style: normal;
   padding-bottom: 60px;
-  padding-top: 10px;
   z-index: 15;
   width: 100%;
+  padding-top: 10px;
 }
 @media screen and (min-width: 576px) {
   .content-projects__caption {
     font-size: 0.935rem;
+    padding-top: 20px;
   }
 }
 @media screen and (min-width: 768px) {
   .content-projects__caption {
     padding-bottom: 0px;
+    padding-top: 30px;
     font-size: 0.9775rem;
   }
 }
@@ -368,17 +375,13 @@ h2 {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 768px) {
-  .content-projects__col {
-    margin: 1em;
-  }
-}
 .content-projects h4 {
   color: #191919;
   font-size: 18px;
   font-style: italic;
   z-index: 15;
   font-weight: bold;
+  padding-bottom: 8px;
 }
 @media screen and (min-width: 576px) {
   .content-projects h4 {
@@ -457,7 +460,7 @@ h2 {
 }
 @media screen and (min-width: 769px) {
   .content-projects > *:nth-child(1) {
-    flex: 1 1 55%;
+    flex: 0 1 60%;
   }
 }
 
@@ -467,7 +470,7 @@ h2 {
 }
 @media screen and (min-width: 769px) {
   .content-projects > *:nth-child(2) {
-    flex: 1 1 37%;
+    flex: 1 1 25%;
   }
 }
 
@@ -487,7 +490,7 @@ h2 {
 }
 @media screen and (min-width: 769px) {
   .content-projects > *:nth-child(4) {
-    flex: 1 1 65%;
+    flex: 0 1 60%;
   }
 }
 
@@ -497,7 +500,7 @@ h2 {
 }
 @media screen and (min-width: 769px) {
   .content-projects > *:nth-child(5) {
-    flex: 1 1 65%;
+    flex: 0 1 60%;
   }
 }
 
@@ -527,7 +530,7 @@ h2 {
 }
 @media screen and (min-width: 769px) {
   .content-projects > *:nth-child(8) {
-    flex: 1 1 65%;
+    flex: 0 1 60%;
   }
 }
 
@@ -537,7 +540,7 @@ h2 {
 }
 @media screen and (min-width: 769px) {
   .content-projects > *:nth-child(9) {
-    flex: 1 1 65%;
+    flex: 0 1 60%;
   }
 }
 
@@ -652,6 +655,11 @@ h2 {
   height: 31vh;
   font-size: 20px;
 }
+@media screen and (min-width: 768px) {
+  .section-footer__social-links {
+    font-size: 24px;
+  }
+}
 .section-footer__socials {
   text-decoration: none;
   padding: 0px 40px;
@@ -669,14 +677,14 @@ h2 {
   width: 20%;
 }
 .section-footer__h6 {
-  font-size: 10px;
+  font-size: 12px;
   color: #f5f5f5;
   text-align: center;
   background-color: transparent;
 }
 .section-footer__h5 {
   font-family: "Source Serif Pro", serif;
-  font-size: 23px;
+  font-size: 24px;
   font-style: italic;
   font-weight: 300;
   color: #f5f5f5;

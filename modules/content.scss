@@ -62,7 +62,7 @@
     padding-top: 10px;
 
     @media screen and (min-width: 768px) {
-      width: 22vh;
+      width: 180px;
     }
   }
 
@@ -121,42 +121,48 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   width: 80%; //75%
-  margin: auto;
-  gap: 2em 1em;
+  margin: 0 auto;
+  gap: 1.5em 0.5em;
   z-index: 15;
   padding-bottom: 10vh;
 
   @media screen and (min-width: 768px) {
-    width: 80%; //80%
-    gap: 4em 1em;
+    width: 75%; //80%
+    gap: 3em 0.5em;
   }
 
   @media screen and (min-width: 992px) {
-    gap: 8em 1em;
-    width: 85%; //85%
+    gap: 5em 1em; //8em
+    width: 75%; //85%
+  }
+
+  @media screen and (min-width: 1300px) {
+  max-width: 70%;
   }
 
   &__figure {
     // border: 3px solid red;
-    height: 30vh;
+    height: 20vh; //30vh
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 15;
     position: relative; //to centrally align image?
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 
     @media screen and (min-width: 576px) {
-      height: 35vh;
+      height: 350px; //or try 350px 35vh
+      // margin-bottom: ;
     }
 
-    @media screen and (min-width: 768px) {
-      height: 40vh;
-    }
+    // @media screen and (min-width: 768px) {
+    //   // height: 30vh; //45vh
+    // }
 
     @media screen and (min-width: 992px) {
-      height: 55vh;
+      max-width: 500px;
+      // height: 40vh; //55vh
     }
   }
 
@@ -187,7 +193,7 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    // height: 100%;
+    
   }
 
   &__flex {
@@ -201,27 +207,33 @@ h2 {
     font-weight: 400;
     font-style: normal;
     padding-bottom: 60px;
-    padding-top: 10px;
     z-index: 15;
     width: 100%; //TESTING
+    padding-top: 10px;
 
     @media screen and (min-width: 576px) {
       font-size: $font-size-regular * 1.1;
+      padding-top: 20px;
     }
 
     @media screen and (min-width: 768px) {
       padding-bottom: 0px;
+      padding-top: 30px;
       font-size: $font-size-regular * 1.15;
     }
+
+    // @media screen and (min-width: 912px) {
+    
+    // }
   }
 
   &__col {
     display: flex;
     flex-direction: column;
 
-    @media screen and (min-width: 768px) {
-      margin: 1em;
-    }
+    // @media screen and (min-width: 768px) {
+    //   margin: 1em;
+    // }
   }
 
   h4 {
@@ -231,6 +243,7 @@ h2 {
     font-style: italic;
     z-index: 15;
     font-weight: bold;
+    padding-bottom: 8px;
 
     @media screen and (min-width: 576px) {
       font-size: 20px;
@@ -313,15 +326,17 @@ h2 {
   flex: 1 1 100%;
 
   @media screen and (min-width: 769px) {
-    flex: 1 1 55%; //65%
+    // flex: 1 1 55%;
+    flex: 0 1 60%;
   }
+
 }
 /*col box 1*/
 .content-projects > *:nth-child(2) {
   flex: 1 1 100%;
 
   @media screen and (min-width: 769px) {
-    flex: 1 1 37%; //25%
+    flex: 1 1 25%; //37%
   }
 }
 
@@ -339,7 +354,8 @@ h2 {
   flex: 1 1 100%;
 
   @media screen and (min-width: 769px) {
-    flex: 1 1 65%;
+    // flex: 1 1 65%;
+    flex: 0 1 60%;
   }
 }
 
@@ -348,7 +364,8 @@ h2 {
   flex: 1 1 100%;
 
   @media screen and (min-width: 769px) {
-    flex: 1 1 65%;
+    // flex: 1 1 65%;
+    flex: 0 1 60%;
   }
 }
 
@@ -375,7 +392,8 @@ h2 {
   flex: 1 1 100%;
 
   @media screen and (min-width: 769px) {
-    flex: 1 1 65%;
+    // flex: 1 1 65%;
+    flex: 0 1 60%;
   }
 }
 
@@ -384,7 +402,8 @@ h2 {
   flex: 1 1 100%;
 
   @media screen and (min-width: 769px) {
-    flex: 1 1 65%;
+    // flex: 1 1 65%;
+    flex: 0 1 60%;
   }
 }
 
