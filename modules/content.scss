@@ -132,12 +132,12 @@ h2 {
   }
 
   @media screen and (min-width: 992px) {
-    gap: 5em 1em; //8em
+    gap: 5em 2em; //8em
     width: 75%; //85%
   }
 
-  @media screen and (min-width: 1300px) {
-  max-width: 70%;
+  @media screen and (min-width: 1200px) {
+    max-width: 70%;
   }
 
   &__figure {
@@ -152,8 +152,7 @@ h2 {
     margin-bottom: 12px;
 
     @media screen and (min-width: 576px) {
-      height: 350px; //or try 350px 35vh
-      // margin-bottom: ;
+      height: 350px;
     }
 
     // @media screen and (min-width: 768px) {
@@ -162,7 +161,10 @@ h2 {
 
     @media screen and (min-width: 992px) {
       max-width: 500px;
-      // height: 40vh; //55vh
+    }
+
+    @media screen and (min-width: 1450px) {
+      max-width: 600px;
     }
   }
 
@@ -193,7 +195,6 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    
   }
 
   &__flex {
@@ -223,7 +224,7 @@ h2 {
     }
 
     // @media screen and (min-width: 912px) {
-    
+
     // }
   }
 
@@ -329,7 +330,6 @@ h2 {
     // flex: 1 1 55%;
     flex: 0 1 60%;
   }
-
 }
 /*col box 1*/
 .content-projects > *:nth-child(2) {
