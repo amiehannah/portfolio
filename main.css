@@ -293,6 +293,7 @@ h2 {
 @media screen and (min-width: 1200px) {
   .content-projects {
     max-width: 70%;
+    gap: 8em 2em;
   }
 }
 .content-projects__figure {
@@ -318,6 +319,11 @@ h2 {
 @media screen and (min-width: 1450px) {
   .content-projects__figure {
     max-width: 600px;
+  }
+}
+@media screen and (min-width: 1850px) {
+  .content-projects__figure {
+    max-width: 660px;
   }
 }
 .content-projects__overlay {

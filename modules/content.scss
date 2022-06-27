@@ -138,6 +138,7 @@ h2 {
 
   @media screen and (min-width: 1200px) {
     max-width: 70%;
+    gap: 8em 2em; //8em
   }
 
   &__figure {
@@ -165,6 +166,9 @@ h2 {
 
     @media screen and (min-width: 1450px) {
       max-width: 600px;
+    }
+    @media screen and (min-width: 1850px) {
+      max-width: 660px;
     }
   }
 
