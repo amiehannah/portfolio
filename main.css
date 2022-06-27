@@ -293,12 +293,7 @@ h2 {
 @media screen and (min-width: 1200px) {
   .content-projects {
     max-width: 70%;
-    gap: 8em 2em;
-  }
-}
-@media screen and (min-width: 2000px) {
-  .content-projects {
-    gap: 10em 2em;
+    gap: 8em 4em;
   }
 }
 .content-projects__figure {
