@@ -296,6 +296,11 @@ h2 {
     gap: 8em 4em;
   }
 }
+@media screen and (min-width: 2345px) {
+  .content-projects {
+    gap: 10em 6em;
+  }
+}
 .content-projects__figure {
   height: 20vh;
   display: flex;
@@ -329,6 +334,11 @@ h2 {
 @media screen and (min-width: 2000px) {
   .content-projects__figure {
     max-width: 700px;
+  }
+}
+@media screen and (min-width: 2345px) {
+  .content-projects__figure {
+    max-width: 750px;
   }
 }
 .content-projects__overlay {
